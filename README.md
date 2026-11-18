@@ -78,6 +78,10 @@ Durante o desenvolvimento, foram utilizados recursos do Git e GitHub para organi
 - Organização de tarefas utilizando Issues.
 - Documentação do projeto.
 
+## Status do projeto
+
+Projeto desenvolvido e documentado como atividade final do curso Fundamentos de Git e GitHub — CEFET-MG.
+
 ## Autora
 
 **Beatriz Dias**
