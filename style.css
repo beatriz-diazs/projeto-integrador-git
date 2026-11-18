@@ -334,3 +334,109 @@ main section.visivel {
         transform: none;
     }
 }
+
+/* RESPONSIVIDADE APRIMORADA */
+
+/* Tablets */
+@media (max-width: 900px) {
+    section {
+        padding: 80px 8%;
+    }
+
+    header {
+        padding: 20px 6%;
+    }
+
+    nav ul {
+        gap: 18px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    header {
+        padding: 18px 5%;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav ul {
+        gap: 12px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 60px 6%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .descricao {
+        font-size: 15px;
+    }
+
+    .botao {
+        padding: 11px 20px;
+    }
+
+    .grade-habilidades {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .habilidade {
+        padding: 18px;
+    }
+
+    .grade-projetos {
+        grid-template-columns: 1fr;
+    }
+
+    .projeto {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 25px 6%;
+    }
+}
+
+/* Evita que elementos ultrapassem a largura da tela */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ACESSIBILIDADE: FOCO VISÍVEL */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--roxo-claro);
+    outline-offset: 5px;
+    border-radius: 4px;
+}
+
+/* Melhora a leitura dos links ao passar o mouse */
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Mantém o foco visível nos elementos interativos */
+a,
+button {
+    cursor: pointer;
+}
+
