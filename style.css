@@ -419,3 +419,24 @@ body {
     overflow-x: hidden;
 }
 
+/* ACESSIBILIDADE: FOCO VISÍVEL */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--roxo-claro);
+    outline-offset: 5px;
+    border-radius: 4px;
+}
+
+/* Melhora a leitura dos links ao passar o mouse */
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Mantém o foco visível nos elementos interativos */
+a,
+button {
+    cursor: pointer;
+}
+
