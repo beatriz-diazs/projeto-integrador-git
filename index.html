@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <nav>
+        <nav aria-label="Navegação principal">
             <a href="#inicio" class="logo">BD.</a>
 
             <ul>
@@ -29,11 +29,11 @@
     <main>
 
         
-<section id="inicio">
+<section id="inicio" aria-labelledby="titulo-principal">
     <div class="apresentacao">
         <p class="destaque">OLÁ! SEJA BEM-VINDO(A) AO MEU PORTFÓLIO</p>
 
-        <h1>Beatriz <span>Dias.</span></h1>
+        <h1 id="titulo-principal">Beatriz <span>Dias.</span></h1>
 
         <h2>Estudante de Informática | Desenvolvedora em formação</h2>
 
@@ -175,9 +175,12 @@
 
     <footer>
         <p>© 2026 Beatriz Dias. Todos os direitos reservados.</p>
-        <a href="https://github.com/beatriz-diazs" target="_blank" rel="noopener noreferrer">
-            Meu GitHub
-        </a>
+        <a href="https://github.com/beatriz-diazs"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Visitar meu perfil no GitHub (abre em uma nova aba)">
+    Meu GitHub
+</a>
     </footer>
 
     <script src="script.js"></script>
